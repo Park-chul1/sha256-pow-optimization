@@ -1,0 +1,14 @@
+[package]
+name = "sha256pow_rust"
+version = "0.1.0"
+edition = "2021"
+default-run = "sha256pow_rust"
+
+[dependencies]
+sha2 = "0.10"
+openssl = {version = "0.10", features = ["vendored"]}
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+panic = "abort"

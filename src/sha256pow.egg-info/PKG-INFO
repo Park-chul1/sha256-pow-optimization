@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: sha256pow
+Version: 0.1.0
+Summary: SHA-256 brute-force optimization project
+Requires-Python: >=3.10

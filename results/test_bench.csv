@@ -1,0 +1,5 @@
+run_type,backend,workers,k,double_hash,nonce,tries,elapsed_sec,hashes_per_sec,mhashes_per_sec,target_bits,nonce_size,repeat
+python,unknown,1,24,False,0,0,0.0,0.0,0.0,24,8,1
+python,unknown,1,24,False,14017075,14017076,17.101,819664.45,0.82,24,8,1
+python,unknown,6,24,False,0,0,0.0,0.0,0.0,24,8,1
+python,unknown,12,24,False,0,0,0.0,0.0,0.0,24,8,1
