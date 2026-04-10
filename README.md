@@ -1,5 +1,14 @@
 # SHA-256 Proof-of-Work Optimization Project
 
+## Core Idea
+
+Total time ≈ (cost per iteration) × (2^k)
+
+This project focuses entirely on reducing iteration cost via:
+- loop optimization
+- parallel execution
+- hardware utilization
+
 ## Overview
 
 This project studies a SHA-256 brute-force proof-of-work search problem.
